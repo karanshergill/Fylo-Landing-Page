@@ -21,7 +21,8 @@ export default {
         }
       },
       fontFamily: {
-        'raleway': ["'Raleway Variable', 'sans-serif'"]
+        'raleway': ["'Raleway Variable', 'sans-serif'"],
+        'opensans': ["'Open Sans Variable', 'sans-serif'"]
       }
     },
     screens: {
