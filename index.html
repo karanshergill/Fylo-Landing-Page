@@ -9,10 +9,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="max-w-screen-desktop min-w-screen-mobile mx-auto bg-primary-main">
+<body class="mx-auto">
 
-  <header class="max-w-7xl mx-auto p-8">
-    <div class="flex items-end justify-between">
+  <header class="bg-primary-main">
+    <div class="flex items-end justify-between max-w-7xl mx-auto p-8">
       <img src="/images/logo.svg" alt="Logo" class="desktop:w-28">
       <nav>
         <ul class="flex gap-12 text-white text-sm">
@@ -25,24 +25,25 @@
   </header>
 
   <main>
-    <section class="">
+    <section class="bg-primary-main md:pb-40 relative">
+      <img src="/public/images/bg-curvy-desktop.svg" alt="background" class="absolute bottom-0 w-full">
       <div class="flex flex-col items-center justify-center gap-8 max-w-7xl mx-auto">
-        <img src="/images/illustration-intro.png" alt="illustration-intro" class="max-w-xl">
-        <h1 class="text-white text-center font-raleway text-4xl font-semibold leading-snug">All your files in one
+        <img src="/images/illustration-intro.png" alt="illustration-intro" class="max-w-md">
+        <h1 class="text-white text-center font-raleway text-4xl font-semibold leading-snug z-10">All your files in one
           secure
           location,<br>accessible anywhere.</h1>
-        <p class="text-white text-center font-opensans leading-relaxed max-w-lg">
+        <p class="text-white text-center font-opensans leading-relaxed max-w-lg z-10">
           Fylo stores all your most important files in one secure location. Access them wherever
           you need, share and collaborate with friends family, and co-workers.
         </p>
         <button
-          class="text-sm text-white font-opensans font-semibold bg-gradient-to-r from-accent-cyan to-accent-blue rounded-full px-12 py-3 ">Get
+          class="text-sm text-white font-opensans font-semibold bg-gradient-to-r from-accent-cyan to-accent-blue rounded-full px-12 py-3 z-10">Get
           Started</button>
       </div>
     </section>
 
-    <section class="mt-40">
-      <div class="grid grid-cols-2 gap-y-24 max-w-7xl mx-44">
+    <section class="bg-primary-intro">
+      <div class="grid md:grid-cols-2 gap-y-24 max-w-7xl md:mx-44">
         <div class="space-y-6">
           <img src="/images/icon-access-anywhere.svg" alt="access anywhere" class="mx-auto">
           <div class="text-white text-center mx-24 space-y-2">
@@ -86,9 +87,9 @@
       </div>
     </section>
 
-    <section class="mt-40">
-      <div class="flex items-center max-w-7xl mx-48">
-        <img src="/public/images/illustration-stay-productive.png" alt="illustration-stay-productive" class="max-w-xl">
+    <section class="pt-40 bg-primary-signup">
+      <div class="flex items-center max-w-7xl mx-48 gap-8">
+        <img src="/images/illustration-stay-productive.png" alt="illustration-stay-productive" class="max-w-xl">
         <div class="text-white space-y-4">
           <h2 class="font-raleway text-4xl font-semibold leading-snug">Stay productive,<br> wherever you are</h2>
           <p class="font-opensans text-sm">Never let location be an issue when accessing your files. Fylo has you
@@ -99,7 +100,58 @@
           <p class="font-opensans text-sm">Securely share files and folders with friends, family and colleagues for live
             collaboration. No email
             attachments required.</p>
-          <button>See how Fylo works</button>
+          <button
+            class="flex items-center gap-2 font-opensans text-sm text-accent-cyan border-b border-accent-cyan pb-1">See
+            how
+            Fylo works
+            <img src="/public/images/icon-arrow.svg" alt="icon-arrow">
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-primary-intro pt-40 mb-40">
+      <div class="relative grid grid-cols-3 gap-6 text-white max-w-7xl mx-48">
+        <img src="/images/bg-quotes.png" alt="bg-quotes" class="absolute -top-8 -left-2">
+
+        <div class="bg-primary-testimonials px-6 py-10 space-y-6 z-10">
+          <p class="font-opensans text-sm">Fylo has improved our team productivity by an order of magnitude. Since
+            making the switch
+            our team has
+            become a well-oiled collaboration machine.</p>
+          <div class="flex gap-2">
+            <img src="/images/profile-1.jpg" alt="satish-patel" class="w-8 rounded-full">
+            <div class="font-opensans text-xs">
+              <p>Satish Patel</p>
+              <p>Founder & CEO, Huddle</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-primary-testimonials px-6 py-10 space-y-6">
+          <p class="font-opensans text-sm">Fylo has improved our team productivity by an order of magnitude. Since
+            making the switch our team has
+            become a well-oiled collaboration machine.</p>
+          <div class="flex gap-2">
+            <img src="/images/profile-2.jpg" alt="satish-patel" class="w-8 rounded-full">
+            <div class="font-opensans text-xs">
+              <p>Bruce McKenzie</p>
+              <p>Founder & CEO, Huddle</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-primary-testimonials px-6 py-10 space-y-6">
+          <p class="font-opensans text-sm">Fylo has improved our team productivity by an order of magnitude. Since
+            making the switch our team has
+            become a well-oiled collaboration machine.</p>
+          <div class="flex gap-2">
+            <img src="/images/profile-3.jpg" alt="satish-patel" class="w-8 rounded-full">
+            <div class="font-opensans text-xs">
+              <p>Iva Boyd</p>
+              <p>Founder & CEO, Huddle</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
