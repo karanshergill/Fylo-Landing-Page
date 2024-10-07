@@ -117,7 +117,7 @@
 
     <!-- Testimonials -->
 
-    <section class="bg-primary-intro pt-40 pb-48 relative">
+    <section class="bg-primary-intro pt-40 pb-60 md:pb-48 relative">
       <div class="relative grid md:grid-cols-3 gap-6 text-white max-w-7xl mx-8 md:mx-48">
         <img src="/images/bg-quotes.png" alt="bg-quotes" class="absolute -top-8 -left-2">
 
@@ -165,7 +165,7 @@
   </main>
 
   <footer class="bg-primary-footer relative">
-    <div class="text-white font-opensans text-sm max-w-7xl mx-auto pt-44 pb-24 flex flex-col">
+    <div class="text-white font-opensans text-sm max-w-7xl mx-auto pt-60 pb-20 md:pt-46 md:pb-24 flex flex-col">
 
       <img src="/images/logo.svg" alt="logo" class="w-28 mx-10 md:w-36">
 
@@ -189,7 +189,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col gap-10 px-10 md:px-12 md:gap-0 md:flex-row">
+        <div class="flex flex-col gap-10 px-10 md:px-12 md:flex-row">
           <ul class="space-y-4">
             <li>About Us</li>
             <li>Jobs</li>
@@ -212,19 +212,21 @@
       </div>
     </div>
 
-    <section class="absolute left-0 right-0 -top-24">
-      <div class="text-white text-center bg-primary-main rounded-md flex flex-col items-center gap-6 mx-96 py-12 px-16">
-        <h2 class="text-3xl font-semibold font-opensans">Get early access today</h2>
-        <p class="text-sm text-wrap">It only takes a minute to sign up and our free starter tier is extremely
+    <section class="absolute left-0 right-0 -top-40 md:-top-28">
+      <div
+        class="text-white text-center bg-primary-main rounded-md flex flex-col items-center gap-6 mx-4 md:mx-96 py-10 md:py-12 px-14 md:px-16">
+        <h2 class="text-lg md:text-3xl font-semibold font-opensans">Get early access today</h2>
+        <p class="text-xs md:text-sm text-wrap">It only takes a minute to sign up and our free starter tier is extremely
           generous.
           If
           you
           have any
           questions, our support team would be happy to help you.</p>
-        <div class="flex items-center gap-6">
-          <input type="text" class="py-2 px-16 rounded-full">
+        <div class="flex flex-col md:flex-row items-center gap-6">
+          <input type="text" placeholder="email@example.com"
+            class="placeholder:text-sm py-2 border-none px-12 md:px-16 rounded-full">
           <button
-            class="text-xs text-white font-opensans font-semibold bg-gradient-to-r from-accent-cyan to-accent-blue rounded-full px-8 py-3 z-10">Get
+            class="text-xs text-white font-opensans font-semibold bg-gradient-to-r from-accent-cyan to-accent-blue rounded-full px-20 md:px-8 py-4 z-10">Get
             Started For Free</button>
         </div>
       </div>
