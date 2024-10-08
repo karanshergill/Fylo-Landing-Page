@@ -2,8 +2,8 @@
 
 Desktop view:
 
-![desktop view screenshot](/desktop-view.png)
+![desktop view screenshot](desktop-view.png)
 
 Mobile view:
 
-![mobile view screenshot](/mobile-view.png)
+![mobile view screenshot](mobile-view.png)
